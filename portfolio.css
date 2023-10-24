@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: antiquewhite;
+}
+.header{
+  background-color: #9fafca;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  color: blue;
+  position: absolute;
+  top: 15px;
+  left: 45px;
+  border-radius: 20px;
+  border: 2px solid white;
+  /* border-top: dashed yellow; */
+  border-right: transparent;
+  border-left: transparent;
+  font-family: serif;
+}
+.go{
+}
+.head{
+  color: red;
+  font-size: 20px;
+  text-transform: capitalize;
+  position: absolute;
+  left: 408px;
+}
+
+ul li{
+  list-style: none;
+  text-decoration: none;
+  float: left;
+  padding: 25px;
+  padding-top: 20px;
+}
+ul li a{
+  font-size: 17px;
+  font-weight: bold;
+  color: blue;
+  list-style: none;
+  text-decoration: none;
+}
+.box{
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+}
+
+.services-div2{
+ color: rgb(38, 164, 38);
+}
+
+.projects-div3{
+
+}
+ul li a:hover{
+  color: white;
+}
+.details{
+  margin-left: 10%;
+  margin-top: 15%;
+}
+.details h1{
+  font-size: 50px;
+  color: black;
+  margin-bottom: 15px;
+}
+span{
+  color: orange;
+}
+.details p{
+  color: #555;
+  line-height: 22px;
+}
+.details a{
+  background-color: black;
+  padding: 10px 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+.logo:hover{
+  color: red;
+}
